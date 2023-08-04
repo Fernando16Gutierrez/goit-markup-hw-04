@@ -5,38 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> portafolio Trabajo#4</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@1,400;1,500;1,700;1,900&;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&;family=Roboto:wght@1,400;1,500;1,700;1,900&ampdisplay=swap" rel="stylesheet">   
 </head>
 <body>
-    <header class=" header border  ">
+    <header class="header">
         <div class="container page-header">
-          <a href="texto.html" class=" icon-contain">WebStudio</a>
+          <a href="index.html" class=" icon-contain">WebStudio</a>
           <nav>
-        <ul class="page-header ">
+        <ul class="page-header">
             <li>
-                <a href="index.html" class="header-ref color-main links-header"> Estudio</a>
+                <a href="index.html" class=" selected   header-ref color-main links-header"> Estudio</a>
             </li>
             <li>
-              <a href="./portafolio.html" class="header-ref links-header">portafolio</a>  
+              <a href="index.html" class="header-ref links-header">portafolio</a>  
             </li>
             <li>
-              <a href="./portafolio.html" class="header-ref links-header">Contacto</a>
+              <a href="index.html" class="header-ref links-header">Contacto</a>
             </li>
         </ul>
       </nav>
-        <ul class="page-header-contain">
-              <li>
-                <a href="mailto:info@devstudio.com" class="mail links-header-contain">info@devstudio.com</a>
-              </li>
-              <li>
-                <a href="tel:+525555296000" class="tel links-header-contain">+52 55 5529 6000</a>
-              </li>
-        </ul>
-        </div>
-      </header>   
- <main>  
+      <div class="otro">
+        <ul class="page-header-contain ">
+             <li class="sobre">
+              <svg>
+                <use href="#sobre"></use>
+              </svg>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="mail links-header-contain">info@devstudio.com</a>
+            </li>
+               
+               <li class="telefono">
+                  <svg >
+                     <use href="#telefono"></use>
+                  </svg>
+                </li>
+                  <li>
+                  <a href="tel:+525555296000" class="tel links-header-contain">+525555296000</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+      </header>  
+      <main> 
         <div class=" container boton link">          
             <ul class="link">
                 <li>
@@ -61,7 +75,7 @@
         <ul class="portafolio-menu">
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                <img src="./img/tecnoduck.jpg" alt="mosaico">
+                <img src="./images/tecnoduck.jpg" alt="mosaico">
             <div class="portafolio-item">
                 <h3 class="portafolio-titulo">Tecnoduck.......</h3>
                 <p class="portafolio-web">sitio-web</p>
@@ -69,7 +83,7 @@
             </a>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                <img src="./img/juego.jpg"  alt="personas jugando">
+                <img src="./images/juego.jpg"  alt="personas jugando">
             <div class="portafolio-item">
                 <h3 class="portafolio-poster">Poster Nueva Orleans vs Estrella Dorada</h3>
                  <p class="portafolio-web"></p>
@@ -78,7 +92,7 @@
             </li>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img src="./img/scafood.jpg" alt="restaurante">
+                    <img src="./images/scafood.jpg" alt="restaurante">
                 <div class="portafolio-item">
                     <h3 class="portafolio-titulo">Restaurante de mariscos</h3>
                     <p class="portafolio-web">Aplicaciones</p>
@@ -87,7 +101,7 @@
             </li> 
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img class="portafolio-img" src=" ./img/audifono.jpg" alt="audifono">
+                    <img class="portafolio-img" src=" ./images/audifono.jpg" alt="audifono">
                 <div class="portafolio-item">
                     <h3 class="portafolio-titulo" >Proyecto Prime </h3>
                     <p class="portafolio-web">Marketing</p>
@@ -96,7 +110,7 @@
             </li>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img class="portafolio-img" src="./img/cajas.jpg" alt="cajas">
+                    <img class="portafolio-img" src="./images/cajas.jpg" alt="cajas">
                 <div class="portafolio-item">
                     <h3 class="portafolio-titulo">Proyecto cajas</h3>
                     <p class="portafolio-web">Aplicaciones</p>
@@ -105,7 +119,7 @@
             </li>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img class="portafolio-img" src="./img/monitor.jpg" alt="monitor">
+                    <img class="portafolio-img" src="./images/monitor.jpg" alt="monitor">
                 <div class="portafolio-item">
                     <h3 class="portafolio-titulo">La inspiracion no tiene limites</h3>
                     <p class="portafolio-web">sitioweb</p>
@@ -114,7 +128,7 @@
             </li>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img class="portafolio-img" src="./img/revista.jpg" alt="revistas">
+                    <img class="portafolio-img" src="./images/revista.jpg" alt="revistas">
                    <div class="portafolio-item">
                     <h3 class="portafolio-titulo">Edicion limitada</h3>
                     <p class="portafolio-web">Diseño</p>
@@ -123,7 +137,7 @@
             </li>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img class="portafolio-img" src="./img/etiqueta.jpg" alt="proyecto lab">
+                    <img class="portafolio-img" src="./images/etiqueta.jpg" alt="proyecto lab">
                 <div class="portafolio-item">
                     <h3 class="portafolio-titulo">Proyecto LAB</h3>
                     <p  class="portafolio-web" >Marketing</p>
@@ -132,7 +146,7 @@
                 </li>
             <li class="portafolio-link">
                 <a href="mailto:plinfo@exame.com">
-                    <img class="portafolio-img" src="./img/pc.jpg" alt="tecnologia">
+                    <img class="portafolio-img" src="./images/pc.jpg" alt="tecnologia">
                 <div class="portafolio-item">
                     <h3 class="portafolio-titulo">Negocio en crecimiento</h3>
                     <p class="portafolio-web">Sitio-web</p>  
